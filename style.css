@@ -1,0 +1,239 @@
+*{
+padding:0;
+margin:0;
+
+}
+body{
+    background: #f4f4f4db;
+}
+/* .all{
+    background:#000;
+    height:40vh ; */
+       
+    
+}
+.bar{
+    position:fixed;
+}
+#first{
+    background-image:url("bg.jpg");
+width: 100%;
+  position: fixed;
+background-color:rgba(0,0,0,0.2);
+padding:20px;
+margin:0;
+/* position:reletive; */
+
+
+
+
+}
+.all #first, h1, img,#second{
+    display:inline-block;
+}
+#first h1{
+    
+    color:#ffd240;
+    font-size:50px;
+    margin-left:29px;
+}
+#first img{
+    width: 70px;       
+    height: 70px;
+    border-radius:50px;
+    margin-top:10px;
+    /* 
+    
+    position: absolute */;
+    
+}
+#second{
+
+padding:;
+text-align:right;
+ position:; 
+right:0px;
+top:10px;
+float:right;
+margin-top:30px;
+
+}
+
+#second.menu{
+padding:30px;
+list-style:none;
+}
+#second ul li{
+
+list-style:none;
+display:inline;
+padding:20px;
+color:white;
+}
+
+#second ul li a{
+font-size:24px;
+text-decoration:none;
+color:white;
+text-align:center;padding:20px;
+
+}
+#second ul li a:hover{
+text-decoration:none;
+color:black;
+padding:20px;
+background:#ffd240;
+
+
+}
+a{
+  text-decoration:none;
+  
+  }
+  .abo{
+      text-align:center;
+  }
+  .about{
+    border:1px solid white ;
+    padding:80px;
+    background: transparent;
+    text-align:center;
+    border-radius:;
+  }
+.learn{
+    background: #ff2bdc;
+    margin:auto;
+    padding:50px;
+    background:url("explore.jpg");
+    height: 30vh;
+    display:;
+    margin-bottom:40px;
+    background-repeat:no-repeat ;
+    
+    
+}
+.learn h1{
+    font-size:80px;
+    margin:auto;
+    color:white;
+    text-align:left;
+    margin-top:100px;
+    padding:20px;
+    
+    
+}
+.form{
+width: 350px;
+    padding: 30px;
+    background:#d5d5d533;
+    text-align:center;
+    margin-top:60px;
+    display:inline-block;
+    margin-left:40px;
+}
+.for{
+    text-align:center;
+}
+.form .input{
+max-width: 300px;
+    width: 100%;
+    height: 40px;
+    border:1px solid black ;
+    padding:10px;
+    background: transparent;
+    margin-bottom:20px;
+    border-radius:;
+}
+.form #text{
+    height:200px ;
+}
+.form .button{
+    width:200px;
+    padding:20px;
+    border:none;
+    background: black;
+    color:white;
+}
+.form .button:hover{
+    background: white;
+    color:black;
+}
+.message{
+    background: white;
+    height:;
+    margin-top:60px;
+    display:inline-block;
+    margin-left:40px;
+    padding:30px;
+}
+.me{
+    padding:40px;
+    text-align:left;
+    width:300px;
+}
+.me h2 h3{
+    margin-bottom:-20px;
+}
+.contact{
+    margin-top:100px;
+    height:20vh;
+    background: #202111;
+    color:gray;
+    font-size:20px;
+    text-align:center;
+    
+}
+.footer{
+    background:black;
+    color:gray;
+    height:px;
+    padding:10px;
+    font-size:30px;
+    bottom:0;
+    text-align:center;
+}
+.contact table{
+    border:none;
+    text-align:center;
+    width:80%;
+    
+    margin-left:100px;
+}
+.contact table tr td{
+    padding:20px;
+    
+}
+.contact table tr td a{
+    color:gray;
+    cursor:pointer;
+}
+
+
+.img{
+width:350px;
+    padding:30px;
+    background:white;
+    border-radius:20px;
+    /* display:flex;
+    align:center;
+    justify:center;
+     */
+     margin-bottom:50px;
+     margin-left:39px;
+     display:inline-block;
+}
+.parent{
+    text-align:center;
+}
+.img img{
+    width:300px;
+    height: 200px;
+    border-radius:10px;
+    vertical-align:middle;
+    
+    
+}
+.img h1,p{
+    margin-top:20px;
+    color:gray;
+}
